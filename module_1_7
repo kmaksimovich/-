@@ -1,0 +1,7 @@
+grades = [[5,3,3,5,4], [2,2,2,3], [4,5,5,2], [4,4,3], [5,5,5,4,5]]
+student = {'Johny', 'Bilbo', 'Steve', 'Kendrik', 'Aaron'}
+student_1 = sorted(student)
+grades_1 = {}
+for student, grades_2 in zip(student_1, grades):
+    grades_1 [student] = sum(grades_2) / len(grades_2)
+print(grades_1)
